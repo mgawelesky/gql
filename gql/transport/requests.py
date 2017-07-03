@@ -29,7 +29,7 @@ class RequestsHTTPTransport(HTTPTransport):
 
         data_key = 'json' if self.use_json else 'data'
         post_args = {
-		    'verify': self.verify,
+            'verify': self.verify,
             'headers': self.headers,
             'auth': self.auth,
             'cookies': self.cookies,

@@ -4,4 +4,4 @@ class HTTPTransport(object):
         self.url = url
         self.headers = headers
         self.cookies = cookies
-		self.verify = verify
+        self.verify = verify
